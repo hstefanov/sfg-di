@@ -1,10 +1,7 @@
-package guru.springframework.sfgdi.services;
+package com.springframework.sfgdi;
 
-import org.springframework.context.annotation.Profile;
-import org.springframework.stereotype.Service;
+import guru.springframework.sfgdi.services.GreetingService;
 
-@Profile("ES")
-@Service("i18Service")
 public class I18nSpanishService implements GreetingService {
     @Override
     public String sayGreeting() {
